@@ -1,8 +1,9 @@
 def my_collect(empty_array)
   collection = empty_array
+  arr = []
   collection.collect do |x|
-    x.upcase
+    arr << x.upcase
   end
-  collection
+  arr
 end 
 
