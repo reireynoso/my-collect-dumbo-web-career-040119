@@ -4,7 +4,6 @@ def my_collect(array)
     yield(array[i])
     i += 1 
   end
-  return array
 end 
 
 my_collect(languages) do 
