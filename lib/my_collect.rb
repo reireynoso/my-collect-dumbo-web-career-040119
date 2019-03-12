@@ -4,6 +4,6 @@ def my_collect(empty_array)
   collection.collect do |x|
     arr << x.upcase
   end
-  collection
+  arr
 end 
 
