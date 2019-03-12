@@ -1,6 +1,5 @@
 def my_collect(empty_array)
   collection = empty_array
-  arr = []
   i = 0
   while i < collection.length  do 
     
