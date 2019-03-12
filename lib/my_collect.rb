@@ -1,8 +1,10 @@
 def my_collect(empty_array)
   collection = empty_array
   arr = []
-  collection.collect do |x|
+  i = 0
+  while i < collection.length  do |x|
     arr << x.upcase
+    i += 1
   end
   arr
 end 
