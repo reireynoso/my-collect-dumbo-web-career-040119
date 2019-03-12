@@ -4,7 +4,7 @@ def my_collect(empty_array)
   while i < collection.length do
     collection.collect do 
     collection[i].split(" ").first
-    
+    i += 1 
   end
   collection
 end 
