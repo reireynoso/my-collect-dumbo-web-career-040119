@@ -1,10 +1,11 @@
 def my_collect(empty_array)
   collection = empty_array
-  arr = []
-  collection.collect do |x|
-    yield(x.upcase)
-    arr << x.split(" ").first
+  i = 0
+  while i < collection.length do
+    collection.collect do 
+    collection[i].split(" ").first
+    
   end
-  arr
+  collection
 end 
 
