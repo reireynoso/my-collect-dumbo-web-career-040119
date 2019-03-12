@@ -5,6 +5,6 @@ def my_collect(empty_array)
     collection[i].split(" ").first
     i += 1 
   end
-  collection
+  return collection
 end 
 
