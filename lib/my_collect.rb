@@ -2,7 +2,7 @@ def my_collect(empty_array)
   collection = empty_array
   i = 0
   while i < collection.length do
-    collection << collection[i].upcase
+    collection
     i += 1 
   end
   return collection
