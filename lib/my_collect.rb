@@ -7,3 +7,4 @@ def my_collect(array)
   return array
 end 
 
+my_collect(languages)
